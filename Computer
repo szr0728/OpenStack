@@ -7,5 +7,5 @@ zerotier-cli join a09acf02333289cf
 systemctl enable zerotier-one
 
 #添加moon服务器
-cd /var/lib/zerotier-one/ && wget https://raw.githubusercontent.com/szr0728/OpenStack/main/000000986a8a957f.moon
+cd /var/lib/zerotier-one/ && wget --no-cookie --no-check-certificate https://raw.githubusercontent.com/szr0728/OpenStack/main/000000986a8a957f.moon
 systemctl restart zerotier-one
